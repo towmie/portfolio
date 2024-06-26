@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 
@@ -52,6 +52,17 @@ export const BentoGridItem = ({
   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
+  // Adjust the type according to your environment: `NodeJS.Timeout | null` for Node.js or `number | null` for browser
+  const timeoutRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    // Cleanup function to clear the timeout when the component unmounts or before re-running the effect
+    return () => {
+      if (timeoutRef.current !== null) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   const defaultOptions = {
     loop: copied,
@@ -66,8 +77,17 @@ export const BentoGridItem = ({
     const text = "andre00toz@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
-  };
 
+    // Clear any existing timeout to prevent memory leaks or unexpected behavior
+    if (timeoutRef.current !== null) {
+      clearTimeout(timeoutRef.current);
+    }
+
+    timeoutRef.current = window.setTimeout(() => {
+      // Use `window.setTimeout` if targeting browser
+      setCopied(false);
+    }, 3000);
+  };
   return (
     <div
       className={cn(
