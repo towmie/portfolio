@@ -4,6 +4,7 @@ import {
   FaLocationArrow,
   FaXTwitter,
 } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -43,6 +44,7 @@ export default function Footer() {
               {item.network === "github" && <FaGithub />}
               {item.network === "x" && <FaXTwitter />}
               {item.network === "linkedin" && <FaLinkedin />}
+              {item.network === "telegram" && <FaTelegramPlane />}
             </a>
           ))}
         </div>

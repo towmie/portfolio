@@ -169,4 +169,9 @@ export const socialMedia = [
     network: "x",
     link: "https://x.com/towmiee",
   },
+  {
+    id: 4,
+    network: "telegram",
+    link: "https://t.me/towmie",
+  },
 ];
