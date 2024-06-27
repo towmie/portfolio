@@ -15,7 +15,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center lg:justify-start justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
-            className="sm:h-[32rem] h-[25rem]  sm:w-[570px] flex items-center  justify-center  w-[80vw]"
+            className="sm:h-[32rem] h-[25rem]  sm:w-[570px] flex items-center  justify-center  w-[80vw] mt-20"
             key={item.id}
           >
             <PinContainer title="Visit Website" href={item.link}>
