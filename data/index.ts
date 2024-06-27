@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Hotel App",
-    des: "Effortlessly manage hotel bookings with our full-stack app, featuring a sleek interface with Tailwind CSS, dynamic React components, efficient data fetching with React Query, and a robust backend powered by Supabase",
+    des: "NON-Responsive! Effortlessly manage hotel bookings with our full-stack app, featuring a sleek interface with Tailwind CSS, dynamic React components, efficient data fetching with React Query, and a robust backend powered by Supabase",
     img: "/hotel.png",
     iconLists: ["/re.svg", "/tail.svg", "/tanst.png", "/supabase.png"],
     link: "https://hotel-app-ruddy.vercel.app/",
