@@ -48,8 +48,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "GSAP", "ThreeJS"];
+  const rightLists = ["TailwindCSS", "JavaScript", "HTML/CSS"];
 
   const [copied, setCopied] = useState(false);
   // Adjust the type according to your environment: `NodeJS.Timeout | null` for Node.js or `number | null` for browser
@@ -140,7 +140,7 @@ export const BentoGridItem = ({
             {description}
           </div>
 
-          <div className={`font-sans text-lg lg:text-3xl max-w-96  z-10`}>
+          <div className={`font-sans text-lg lg:text-3xl max-w-96  z-20`}>
             {title}
           </div>
 

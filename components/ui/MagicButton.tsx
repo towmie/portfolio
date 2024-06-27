@@ -1,3 +1,4 @@
+"use client";
 type MagicButtonProps = {
   title: string;
   icon: React.ReactNode;
