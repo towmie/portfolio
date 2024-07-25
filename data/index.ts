@@ -94,6 +94,22 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/redux.svg"],
     link: "https://pizza-project-ecru.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Protfolio laptop",
+    des: "3D Interactive Laptop Model: A dynamic 3D laptop model built with React Three Fiber, featuring an interactive iframe that allows users to scroll, click, and explore various elements on the screen.",
+    img: "/laptop.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://three-js-ak2b.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "3D Racing Game",
+    des: "A thrilling 3D game where players race against the clock to reach the finish line as fast as possible, navigating through challenging obstacles and terrain.",
+    img: "/game.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://three-js-azure-omega.vercel.app/",
+  },
 ];
 
 export const companies = [
