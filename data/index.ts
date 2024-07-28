@@ -110,6 +110,14 @@ export const projects = [
     iconLists: ["/re.svg", "/three.svg"],
     link: "https://three-js-azure-omega.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Ducks",
+    des: "An interactive web application where animated duck models dynamically respond to user mouse movements",
+    img: "/duck.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://solo-r3f.vercel.app/",
+  },
 ];
 
 export const companies = [
