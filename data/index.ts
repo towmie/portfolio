@@ -118,6 +118,14 @@ export const projects = [
     iconLists: ["/re.svg", "/three.svg"],
     link: "https://solo-r3f.vercel.app/",
   },
+  {
+    id: 7,
+    title: "House Animation",
+    des: "ThreeJS interactive 3D animations",
+    img: "/house.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://scroll-house-one.vercel.app//",
+  },
 ];
 
 export const companies = [
