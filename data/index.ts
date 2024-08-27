@@ -80,14 +80,14 @@ export const projects = [
     link: "https://apple-iphone-ruby.vercel.app/",
   },
 
-  {
-    id: 2,
-    title: "Hotel App",
-    des: "NON-Responsive! Effortlessly manage hotel bookings with our full-stack app, featuring a sleek interface with Tailwind CSS, dynamic React components, efficient data fetching with React Query, and a robust backend powered by Supabase",
-    img: "/hotel.png",
-    iconLists: ["/re.svg", "/tail.svg", "/tanst.png", "/supabase.png"],
-    link: "https://hotel-app-ruddy.vercel.app/",
-  },
+  // {
+  //   id: 2,
+  //   title: "Hotel App",
+  //   des: "NON-Responsive! Effortlessly manage hotel bookings with our full-stack app, featuring a sleek interface with Tailwind CSS, dynamic React components, efficient data fetching with React Query, and a robust backend powered by Supabase",
+  //   img: "/hotel.png",
+  //   iconLists: ["/re.svg", "/tail.svg", "/tanst.png", "/supabase.png"],
+  //   link: "https://hotel-app-ruddy.vercel.app/",
+  // },
   {
     id: 3,
     title: "Pizza App. Order, track, enjoy",
