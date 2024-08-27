@@ -79,6 +79,7 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://apple-iphone-ruby.vercel.app/",
   },
+
   {
     id: 2,
     title: "Hotel App",
@@ -126,6 +127,14 @@ export const projects = [
     img: "/house.png",
     iconLists: ["/re.svg", "/three.svg"],
     link: "https://scroll-house-one.vercel.app//",
+  },
+  {
+    id: 8,
+    title: "Earth 3D",
+    des: "A 3D interactive globe that allows users to explore the world. Three.js, GLSL",
+    img: "/earth.png",
+    iconLists: ["/three.svg"],
+    link: "https://three-js-j7yu.vercel.app/",
   },
 ];
 
