@@ -80,14 +80,14 @@ export const projects = [
     link: "https://apple-iphone-ruby.vercel.app/",
   },
 
-  // {
-  //   id: 2,
-  //   title: "Hotel App",
-  //   des: "NON-Responsive! Effortlessly manage hotel bookings with our full-stack app, featuring a sleek interface with Tailwind CSS, dynamic React components, efficient data fetching with React Query, and a robust backend powered by Supabase",
-  //   img: "/hotel.png",
-  //   iconLists: ["/re.svg", "/tail.svg", "/tanst.png", "/supabase.png"],
-  //   link: "https://hotel-app-ruddy.vercel.app/",
-  // },
+  {
+    id: 2,
+    title: "🎶 Enjoy Joy Division 🎶",
+    des: "Application that renders an animated Joy Division-inspired logo using Three.js and React Three Fiber. The logo's lines dynamically transform and respond to music input, creating a visually striking effect powered by GLSL shaders.",
+    img: "/joy.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://three-js-fx15.vercel.app/",
+  },
   {
     id: 3,
     title: "Pizza App. Order, track, enjoy",
