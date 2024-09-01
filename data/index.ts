@@ -82,6 +82,14 @@ export const projects = [
 
   {
     id: 2,
+    title: "Copy of Evox Lab",
+    des: "This project is a personal exercise in recreating the Evox Lab website, originally developed by another agency, for large screens only. It demonstrates my ability to replicate complex web designs and functionality using HTML, CSS, JavaScript,",
+    img: "/evox.png",
+    iconLists: ["/gsap.svg"],
+    link: "https://evox-lab.vercel.app/",
+  },
+  {
+    id: 3,
     title: "🎶 Enjoy Joy Division 🎶",
     des: "Application that renders an animated Joy Division-inspired logo using Three.js and React Three Fiber. The logo's lines dynamically transform and respond to music input, creating a visually striking effect powered by GLSL shaders.",
     img: "/joy.png",
@@ -89,7 +97,7 @@ export const projects = [
     link: "https://three-js-fx15.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Pizza App. Order, track, enjoy",
     des: "Experience the ultimate pizza ordering with our sleek and responsive app, powered by React, Redux for state management, and styled to perfection with Tailwind CSS",
     img: "/pizza.png",
@@ -97,7 +105,7 @@ export const projects = [
     link: "https://pizza-project-ecru.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Protfolio laptop",
     des: "3D Interactive Laptop Model: A dynamic 3D laptop model built with React Three Fiber, featuring an interactive iframe that allows users to scroll, click, and explore various elements on the screen.",
     img: "/laptop.png",
@@ -105,7 +113,7 @@ export const projects = [
     link: "https://three-js-ak2b.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "3D Racing Game",
     des: "A thrilling 3D game where players race against the clock to reach the finish line as fast as possible, navigating through challenging obstacles and terrain.",
     img: "/game.png",
@@ -113,7 +121,7 @@ export const projects = [
     link: "https://three-js-azure-omega.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Ducks",
     des: "An interactive web application where animated duck models dynamically respond to user mouse movements",
     img: "/duck.png",
@@ -121,7 +129,7 @@ export const projects = [
     link: "https://solo-r3f.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "House Animation",
     des: "ThreeJS interactive 3D animations",
     img: "/house.png",
@@ -129,7 +137,7 @@ export const projects = [
     link: "https://scroll-house-one.vercel.app//",
   },
   {
-    id: 8,
+    id: 9,
     title: "Earth 3D",
     des: "A 3D interactive globe that allows users to explore the world. Three.js, GLSL",
     img: "/earth.png",
